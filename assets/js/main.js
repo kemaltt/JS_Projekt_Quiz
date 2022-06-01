@@ -93,6 +93,7 @@ data.forEach(el => {
                 answer.style.backgroundColor = "#00FF00";
             } else {
                 answer.style.backgroundColor = "#FF0000";
+                answer.style.transform = 'rotate(180deg)';
             }
 
         })
